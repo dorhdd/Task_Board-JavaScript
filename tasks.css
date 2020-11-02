@@ -1,0 +1,49 @@
+body{
+    background-image: url("tile.jpg");
+    padding-top: 1.5em;
+}
+
+h1{
+    font-size:5vw;
+    font-family: 'Indie Flower', cursive;
+}
+
+form{
+    background-image: url("formbg.jpg");
+}
+
+
+.noteBag {
+    animation: fadeIn 1s none;
+    width: 12rem;
+    height: 16rem;
+    background-image: url("notebg.png");
+    background-repeat: no-repeat;
+    padding-left: 0.5rem;
+
+}
+
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+.hoverC {
+    opacity: 0; 
+    width: 10rem;
+    height: 2em;
+}
+
+.hoverC:hover{
+    opacity: 1; 
+}
+
+.space{
+    padding-top: 6rem;
+}
+
+.scroll{
+    overflow-y: scroll;
+}
